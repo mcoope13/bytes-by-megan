@@ -1,0 +1,278 @@
+html, body {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color: #FFFFFF; 
+    color: #272343;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    font-family: 'Roboto', cursive;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Widths */
+.full-width {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.half-width {
+    width: 50%;
+}
+
+.third-width {
+    width: 33.3%;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #272343;
+}
+
+.top {
+    width: 100%;
+}
+
+.hello {
+    font-family: 'Roboto', sans-serif;
+    background-color: #272343;
+    color: #FFFFFF;
+    padding-top: 2%;
+}
+
+.hello h1 {
+    margin-left: 4%;
+}
+
+.name {
+    margin-left: 8%;
+}
+
+.hello h2 {
+    margin-left: 8%;
+}
+
+.megan {
+    font-size: 36px;
+}
+
+.ny {
+    font-size: 28px;
+}
+
+.la {
+    margin-left: 8%;
+}
+
+.chi {
+    margin-left: 16%;
+}
+
+.aa {
+    margin-left: 24%;
+}
+
+.la,
+.chi,
+.aa {
+    padding-top: 1%;
+}
+
+.about img {
+    width: 45%;
+    padding-bottom: 3%;
+}
+
+.about {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e3f6f5;
+    color: #272343;
+    text-align: center;
+}
+
+.picture {
+    float: left;
+}
+
+.words {
+    float: right;
+}
+
+.about p {
+    font-family: 'Roboto Condensed';
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    line-height: 24px;
+}
+
+.about h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.portfolio {
+    text-align: center;
+    padding-top: 1%;
+}
+
+.portfolio h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 1%;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 1%;
+}
+
+.rogue {
+    flex: 1;
+    display:inline-block;
+    align-content: flex-start;
+    float: left;
+}
+
+.jubilee {
+    flex: 1;
+    display:inline-block;
+    align-content: flex-start;
+    float: left;
+}
+
+.holstee {
+    flex: 1;
+    display:inline-block;
+    align-content: flex-start;
+    float: left;
+}
+
+.jubilee img,
+.holstee img,
+.rogue img {
+    padding: 0;
+    margin: 0;
+}
+
+.jubilee h5,
+.holstee h5,
+.rogue h5 {
+    padding: 1%;
+    margin: 0;
+    font-size: 16px;
+}
+
+
+
+li {
+    list-style: none;
+    display: inline;
+    padding-right: 5%;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.portfolio {
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color: #e3f6f5;
+    color: #272343;
+    padding-top: 1%;
+}
+
+.logo {
+    height: 20px;
+    padding: 5px;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+footer h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.threes {
+    display: flex;
+}
+
+.hireme {
+    flex: 1;
+    display:inline-block;
+    align-content: flex-start;
+    float: left;
+    text-align: center;
+}
+
+.followme {
+    flex: 1;
+    display:inline-block;
+    align-content: flex-start;
+    float: left; 
+    text-align: center;
+}
+
+.meetme {
+    flex: 1;
+    display:inline-block;
+    align-content: flex-start;
+    float: left; 
+    text-align: center;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.main {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.main h3 {
+    text-align: center;
+}
+
+.main p {
+    text-align: center;
+}

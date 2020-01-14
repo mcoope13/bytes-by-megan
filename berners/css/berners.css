@@ -1,0 +1,39 @@
+.main {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.main h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #272343;
+}
+
+.main h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #272343;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.main p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #272343;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #272343;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
